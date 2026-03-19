@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://redbar.github.io',
+  url: 'https://gotofu-agile.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'redbar', // Usually your GitHub org/user name.
+  organizationName: 'GoTofu-Agile', // Usually your GitHub org/user name.
   projectName: 'Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -49,7 +49,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/redbar/Docs/tree/main/website/',
+          editUrl: 'https://github.com/GoTofu-Agile/Docs/tree/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -59,7 +59,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/redbar/Docs/tree/main/website/',
+          editUrl: 'https://github.com/GoTofu-Agile/Docs/tree/main/website/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -95,7 +95,7 @@ const config = {
           },
           {to: '/blog', label: 'Updates', position: 'left'},
           {
-            href: 'https://github.com/redbar/Docs',
+            href: 'https://github.com/GoTofu-Agile/Docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/redbar/Docs',
+                href: 'https://github.com/GoTofu-Agile/Docs',
               },
             ],
           },
@@ -131,7 +131,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/redbar/Docs',
+                href: 'https://github.com/GoTofu-Agile/Docs',
               },
             ],
           },
