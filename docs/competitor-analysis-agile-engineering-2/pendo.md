@@ -1,0 +1,98 @@
+---
+title: Pendo
+source: Private & Shared 2/Agile Engineering - Go_TOFU/Competitor Analysis Agile Engineering (2)/Pendo 31a0f2153d6d81aaac80f4525e9590ab.md
+---
+# Pendo
+
+1. Question: Solves product experience optimization: product analytics, in-app guidance, feedback collection, and behavioral understanding (incl. session replay); targets product teams and other digital stakeholders (product, sales, IT) trying to improve adoption and outcomes.
+2. Question: Yes. Built around “product analytics + in-app guides + feedback” workflows that product teams use to understand behavior and drive feature adoption, though it also explicitly serves other functions (e.g., sales/IT).
+3. Question: Unified analytics + guides + session replay in one platform; AI-assisted feedback theme categorization; targeted NPS/feedback loops in-product; “Agent Mode” / natural language questioning over product data; in-app review capture workflows (e.g., request a G2 review from a user segment).
+Description: Pendo is a comprehensive product experience platform (SXM) designed to help product teams and application owners improve software experiences through data-driven insights, in-app guidance, and user feedback. It enables businesses to track user behavior, increase adoption, and gather sentiment to enhance both customer-facing products and internal tools.
+Notes:   • Not specifically focused on Product Management
+  • Sells itself as a general management tool for every situation (one-solutions-fits-all kind of product)
+  • But product management is included
+  • Pricing plan is very detailed
+PM: No
+Solutions: Enterprise, IT, Marketing, Product Management, Revenue, Salesforce, Startups
+Website: https://www.pendo.io/
+
+# Standouts
+
+---
+
+# Product
+
+---
+
+- https://www.pendo.io/solutions/pendo-for-product/
+
+**Build what your users want:** Collect feedback at scale and move quickly with AI-powered analysis to align development with customers’ needs.
+
+**Improve what you’ve already built:** Use product analytics and replay data to spot friction, then take action with no-code in-app messaging.
+
+**Use your product to drive growth:** Leverage targeted in-app guides to increase product adoption, boost user engagement, and grow revenue.
+
+### 1. Understand user behavior to find new revenue opportunities
+
+- **Optimize product revenue:**Identify the products, features, and user behaviors that drive retention to inform product-led growth and engineering investments.
+- **Drive cross-sell:** Know exactly which users have the best cross-sell opportunities and use Guides to deliver cross-selling messaging at the right moment in-app.
+- **Boost adoption:** Find and fix user frustrations and product adoption challenges using quantitative usage data, qualitative feedback, and visual data.
+
+### **2. Monitor usage and deliver real-timesupport to lower costs**
+
+- **Connect engineering work to business outcomes:** Combine usage, feedback, and NPS data to understand which products and features correlate with growth and retention so you can better prioritize R&D resources.
+- **Reduce customer support costs:** Proactively prevent support tickets by using product analytics to identify user friction and no-code in-app messaging to implement quick fixes.
+- **Make informed roadmap decisions:** Save developer hours by using customer feedback and AI to make smarter, data-driven roadmap decisions based on users’ behavior and requests.
+
+### **3. Put customers at the center to deriskproduct decisions**
+
+- **Make data-driven roadmap decisions:** Lower the risk associated with roadmap bets by using quantitative and qualitative data to validate ideas before development and align decisions with user needs.
+- **Minimize customer churn:** Reduce churn risk by tracking key metrics like product usage and retention in order to proactively improve customer health.
+- **Improve the product experience:** Avoid risks from poor product experiences by enabling non-technical teams to quickly improve the UI and fix issues with targeted in-app messaging.
+
+→ Many different Case study examples: https://www.pendo.io/solutions/pendo-for-product/
+
+### **Resources for product teams**
+
+- Podcasts
+- Free certification courses for product leaders
+- The playbook for AI-enhanced product management
+- 10 questions you can answer with Pedo data
+
+### Frequently asked questions
+
+- **How does Pendo help product teams understand user behavior?**
+
+Pendo provides robust [product analytics software](https://www.pendo.io/product/features/product-analytics/) that allow product teams to monitor and analyze user interactions within their software. By tracking feature usage, user flows, and engagement patterns, teams can identify areas where users excel or encounter difficulties. These insights enable data-driven decision making and help teams prioritize feature development based on actual user needs.
+
+- **How does Pendo help reduce churn and improve retention?**
+
+Pendo helps product teams identify behaviors that signal risk, such as low feature adoption or inactive users. By surfacing these patterns, teams can target at-risk cohorts with in-app guidance, education, or surveys to re-engage them. This proactive approach strengthens customer relationships and drives higher user retention.
+
+- **What KPIs can product teams measure with Pendo?**
+
+**With Pendo, teams can track the metrics that matter most to product success: feature adoption, active usage, user retention, time-to-value, and customer sentiment (NPS, CSAT). By tying these KPIs to initiatives, product managers can clearly demonstrate how product decisions influence business outcomes.**
+
+- **In what ways can Pendo enhance in-app communication?**
+
+Pendo offers in-app guidance and messaging tools that allow product teams to communicate directly with users within their software. In-app guides are particularly useful for onboarding new users, announcing product updates, or providing contextual assistance. By delivering timely and relevant messages, teams can improve user engagement and reduce reliance on external communication channels.
+
+- **How does Pendo facilitate the collection and management of user feedback?**
+
+Pendo provides a centralized feedback management system that enables users to submit their thoughts and feature requests while using the product. With AI-powered feedback analysis, Pendo helps product teams identify trends, categorize requests, and prioritize features more efficiently. By combining qualitative insights with quantitative usage data, teams gain a deeper understanding of user sentiment and can make more informed product decisions.
+
+- **Can Pendo assist in aligning product development with business objectives?**
+
+Yes, Pendo’s platform supports the creation of data-driven roadmaps that align product development with overarching business goals. By integrating user insights and feedback into the planning process, product teams can ensure that their initiatives contribute to customer satisfaction and business growth.
+
+- **Does Pendo integrate with tools in our existing stack (e.g., Jira, Salesforce, Slack, data warehouses)?**
+
+Yes. Pendo integrates with the tools product teams rely on every day, including Jira, Salesforce, Slack, and leading data platforms. These integrations allow product insights, feedback, and engagement data to flow seamlessly into existing workflows, making it easier to prioritize work and demonstrate business impact without switching contexts.
+
+# Integrations
+
+---
+
+# Pricing Overview
+
+---
