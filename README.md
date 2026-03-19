@@ -1,55 +1,153 @@
-# Go_TOFU Knowledge Base
+# Agile Engineering - Go_TOFU
 
-This repository contains a cleaned, GitHub-friendly knowledge base converted from a Notion export.
+## What Problem are we trying to solve
 
-## Repository Layout
+- Real user interviews are **slow, expensive, and hard to scale**
+- Teams cannot access **enough customers** to talk to, especially early-stage
+- Existing customer data (surveys, reviews, transcripts) sits **unused and unanalyzed**
+- Getting **expert or diverse opinions** requires significant time and resources
 
-- `docs/` - normalized Markdown knowledge base (primary content for browsing)
-- `assets/notion/` - centralized assets referenced by docs (images, PDFs, CSVs)
-- `updates/` - ongoing updates and changelogs
-- `templates/` - reusable templates for new documentation entries
-- `Private & Shared 2/` - original Notion export preserved as source archive
-- `.github/` - workflows and repository templates
-- `scripts/` - utility scripts for repeatable maintenance
+## Approaches
 
-## Start Here
+- A: Synthetic Responses
+- B: Pre-Personas based on publicly available data
+- C: Proprietary Data from customer data
+
+![Mermaid Diagram](assets/notion/mermaid-diagram-png/mermaid-diagram-8855a70e.png)
+
+## Data Sources for Scraping
+
+1. App Stores
+   - AppStore (Apple)
+   - PlayStore (Google)
+   - ProductHunt
+   - G2
+   - Captera
+2. Social Media
+   - Reddit
+   - Twitter/X
+   - Instagram
+   - Facebook
+   - YouTube
+3. E-commerce
+   - Amazon, Shopify, AliExpress, Etsy, Ebay
+
+- [Scraper Tools Overview](docs/overview/scraper-tools-overview.md)
+- [Data Scraping Tools](docs/overview/data-scraping-tools.md)
+
+## Who It Is For
+
+- **Founders** validating ideas without enough interviews
+- **Marketers and researchers** needing fast qualitative feedback
+- **Teams** drowning in customer feedback (NPS, support tickets, reviews) with no clear insights
+
+## The Solution
+
+- AI-powered **synthetic personas** built from real data and publicly available information
+- Users submit their goal + existing data to **talk to simulated customers or experts**
+- Turns large-scale feedback into **decision-ready insights in minutes**, not weeks
+
+## Strategy to get customers
+
+- Start with a free version where users can find the right personas for their use case
+
+## Our Strategy
+
+### Functionalities
+
+**Primary Functionalities - MVP:**
+
+- Run ad campaign simulation
+
+**Additional Functionalities:**
+
+- Web scraping
+- Pre-product-launch testing
+- [node-nlp](https://www.npmjs.com/package/node-nlp)
+- [Bright Data App Store Scraper](https://brightdata.com/products/web-scraper/app-store)
+- [Apify App Store Scraper](https://apify.com/epctex/appstore-scraper)
+
+### First User Segment
+
+**Company Types:**
+
+- Small to Medium Enterprises
+- ScaleUps
+- Large Enterprise
+- Agencies and Freelancers
+
+**Company Criteria:**
+
+- Companies that already have a product and customer feedback
+
+- [GoTFu - Tasks](docs/gotfu-tasks/README.md)
+
+## Overview of Meeting, Materials, Resources
+
+- [Meeting 11 March](docs/overview/meeting-11-march.md)
+- [Meeting 13th March](docs/overview/meeting-13th-march.md)
+
+## Existing Players
+
+- **12 players offering synthetic interviews**
+- Source: [Synthetic Users Tools](https://www.uxia.app/blog/synthetic-users-tools)
+
+1. Synthetic Users
+2. Uxia
+3. Deepsona
+4. Delve AI
+5. Ditto
+6. Beehive AI
+7. Simsurveys
+8. Custodia
+9. JENTIS
+10. C5i Synthetic Audiences (Microsoft Marketplace)
+11. SyntheticIQ
+
+- [What competitors offer as data enrichment for synthetic user profiles](docs/overview/what-do-competitors-offer-as-data-enrichment-for-s.md)
+- [Team and Roles](docs/team-and-roles/README.md)
+
+## Old Material
+
+### Customer Interviews - Old Project
+
+- [Interview Questionnaire](docs/overview/interview-questionnaire.md)
+- [Customer Interview Summary - Stefan](docs/overview/customer-interview-summary-stefan-product-owner.md)
+- [Customer Interview Summary - Michael Stamp](docs/overview/customer-interview-summary-michael-stamp-produc.md)
+- [Customer Interview Summary - Ishan Shreshta](docs/overview/customer-interview-summary-ishan-shreshta-produ.md)
+- [Customer Interview Summary - Fabian](docs/overview/customer-interview-summary-fabian-tech-pod-capt.md)
+- [Product Manager Razor - Jelena M.](docs/overview/product-manager-razor-jelena-m.md)
+- [Costumer Inteview - Maxime (Hitachi Rail)](docs/overview/costumer-inteview-maxime-hitachi-rail.md)
+- [Costumer Inteview - Goncalo Deus](docs/overview/costumer-inteview-goncalo-deus.md)
+- [Customer Interview Summary - Moritz Schroer](docs/overview/customer-interview-summary-moritz-schroer-produ.md)
+
+### Overview - Old Project
+
+- [Best Practices from The Mum Test](docs/overview/best-practices-from-the-mum-test.md)
+- [Interview Guide V1](docs/overview/interview-guide-v1.md)
+- [20260226_TofuOS business opportunity todate](docs/overview/20260226-tofuos-business-opportunity-todate.md)
+- [Market Research](docs/overview/market-research.md)
+- [Competitors](docs/overview/competitors.md)
+- [Sprint 2 - Notes](docs/overview/sprint-2-notes.md)
+- [Mid Week Check-In](docs/overview/mid-week-check-in.md)
+- [Thursday Interview Insights](docs/overview/thursday-invterview-insights.md)
+- [20260305_TofuOS_Business Opportunity_todate](docs/overview/20260305-tofuos-business-opportunity-todate.md)
+- [Sunday Product Decision](docs/overview/sunday-product-decision.md)
+- [Tasks Tracker Sprint 3](docs/tasks-tracker-sprint-3/README.md)
+
+## Competitor Analysis - Old Project
+
+1. What specific problem is this tool solving? Which kind of customer is this platform targeting?
+2. Is this a solution specifically designed for Product Managers?
+3. What interesting features are there that we could adopt?
+
+If you know other tools that are out there, please add them.
+
+- [Competitor Analysis Agile Engineering](docs/competitor-analysis-agile-engineering-2/README.md)
+- [Product Manager Interview Pipeline](docs/product-manager-interview-pipeline/README.md)
+
+## Repository Navigation
 
 - [Knowledge Base Index](docs/index.md)
 - [Updates Log](updates/README.md)
 - [Contributing Guide](CONTRIBUTING.md)
-
-## Section Navigation
-
-- [Overview](docs/overview/README.md)
-- [Team and Roles](docs/team-and-roles/README.md)
-- [Tasks Tracker Sprint 3](docs/tasks-tracker-sprint-3/README.md)
-- [GoTFu Tasks](docs/gotfu-tasks/README.md)
-- [Competitor Analysis](docs/competitor-analysis-agile-engineering-2/README.md)
-- [Interview Pipeline](docs/product-manager-interview-pipeline/README.md)
-- [Interview Notes (Fabian)](docs/customer-interview-summary-fabian-tech-pod-capt/README.md)
-- [Interview Notes (Stefan)](docs/customer-interview-summary-stefan-product-owner/README.md)
-- [Interview Notes (Goncalo)](docs/costumer-inteview-goncalo-deus/README.md)
-- [Interview Notes (Maxime)](docs/costumer-inteview-maxime-hitachi-rail/README.md)
-
-## Maintenance Workflow
-
-1. Add or update files in `docs/` and `assets/notion/`.
-2. Add a short entry to `updates/weekly/` or `updates/daily/`.
-3. Open a pull request using the PR template.
-4. Ensure CI passes (`markdownlint` + link checks).
-
-## Regenerating From Notion Export
-
-If you import a new Notion export into `Private & Shared 2/Agile Engineering - Go_TOFU`, run:
-
-`python3 scripts/restructure_notion_export.py`
-
-This rebuilds `docs/` and `assets/notion/` from the raw export.
-
-## Optional Local Docs Site (MkDocs)
-
-If you want a browsable local site:
-
-1. `python3 -m pip install mkdocs`
-2. `mkdocs serve`
-3. Open `http://127.0.0.1:8000`
