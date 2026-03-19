@@ -27,6 +27,40 @@ Click the badge above to view the full Notion workspace.
    - `templates/meeting-notes.md`
 4. Open a PR with context using `.github/PULL_REQUEST_TEMPLATE.md`.
 
+## Collaboration Workflow (Obsidian + GitHub)
+
+### Edit with Obsidian
+
+1. Open this repository folder in Obsidian.
+2. Edit files in `docs/` (and `assets/notion/` only when needed).
+3. Add a short change log entry in `updates/daily/` or `updates/weekly/`.
+
+### Create a branch
+
+```bash
+git checkout -b docs/<short-change-name>
+```
+
+### Commit changes
+
+```bash
+git add .
+git commit -m "docs: short description of change"
+```
+
+### Push branch
+
+```bash
+git push -u origin HEAD
+```
+
+### Open Pull Request
+
+1. Go to the repository on GitHub.
+2. Click **Compare & pull request** for your branch.
+3. Fill in `.github/PULL_REQUEST_TEMPLATE.md`.
+4. Request review before merging into `main`.
+
 ### Copy/Paste Update Entry
 
 ```md
