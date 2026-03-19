@@ -2,6 +2,8 @@
 
 Use this folder to track ongoing changes to the knowledge base.
 
+Edit these files directly in **Obsidian**.
+
 ## Structure
 
 - `daily/` - short day-to-day notes

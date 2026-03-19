@@ -2,6 +2,12 @@
 
 Thanks for helping maintain this knowledge base.
 
+## Editing Tool
+
+- Use **Obsidian** as the default editor for all documentation updates.
+- Open the repository root as an Obsidian vault.
+- Edit files directly in `docs/`, `updates/`, and `templates/`.
+
 ## Branch and PR Workflow
 
 1. Create a branch from `main`.
@@ -16,7 +22,7 @@ Thanks for helping maintain this knowledge base.
 - Keep pages concise and scannable.
 - Use relative links for internal navigation.
 - Store binary files in `assets/notion/` and link from docs.
-- Keep raw export content in `Private & Shared 2/` unchanged.
+- Do not edit files under `Private & Shared 2/` directly.
 
 ## Required PR Content
 
@@ -25,9 +31,9 @@ Thanks for helping maintain this knowledge base.
 - Validation performed
 - Follow-up work (if any)
 
-## When Importing New Notion Exports
+## Collaboration Standard
 
-1. Replace source files under `Private & Shared 2/Agile Engineering - Go_TOFU`.
-2. Run: `python3 scripts/restructure_notion_export.py`
-3. Review generated diffs in `docs/` and `assets/notion/`.
-4. Submit PR.
+1. Edit in Obsidian.
+2. Commit focused changes on a feature branch.
+3. Open a pull request and request review.
+4. Merge after checks pass.
