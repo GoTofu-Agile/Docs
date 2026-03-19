@@ -1,0 +1,16 @@
+---
+title: Wrike
+source: Private & Shared 2/Agile Engineering - Go_TOFU/Competitor Analysis Agile Engineering (2)/Wrike 31a0f2153d6d8199a80ce7b4d4dd6c53.md
+---
+# Wrike
+
+1. Question: Solves enterprise work management: build/connect workflows, resource plan, execute, and report; targets larger teams needing governance, intake controls, and cross-functional visibility (including product teams as a use case).
+2. Question: No. Primarily an enterprise work/project management platform; product management is presented as a supported team use case (templates/solutions), not the core product boundary.
+3. Question: Request forms that auto-create tasks/projects/blueprints and prefill fields; robust resource planning (allocation + attributes/skills) and Gantt with dependencies; creative proofing/approvals with in-context markup; generative AI for project plans/descriptions.
+Description: Wrike is a cloud-based, AI-powered work management and project management platform designed to streamline workflows, enhance collaboration, and increase productivity for teams of all sizes. It offers customizable dashboards, Gantt charts, task management, and, time-tracking features to help teams manage projects, resources, and reporting in real-time.
+Notes:   • Not specifically focused on Product Management
+  • Sells itself as a general management tool for every situation (one-solutions-fits-all kind of product)
+  •
+PM: No
+Solutions: Agile Software Development, Client Services, Creative, Design, Finance, HR, IT, Legal, Marketing, Operations, Product Management, Program Management, Project Management, SEO Agencies, Strategic Planning
+Website: https://www.wrike.com/

@@ -1,0 +1,31 @@
+name: Documentation Update
+description: Request a documentation addition or correction.
+title: "docs: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What needs to be updated?
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Target Location
+      description: Which file/folder should be updated?
+      placeholder: docs/overview/...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this update needed?
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What should be true when this is done?
