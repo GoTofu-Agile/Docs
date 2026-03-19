@@ -1,5 +1,43 @@
 # Agile Engineering - Go_TOFU
 
+> Source of truth imported from the main Notion page, adapted for GitHub.
+
+## Quick Navigation
+
+- [Knowledge Base Index](docs/index.md)
+- [GoTFu Tasks](docs/gotfu-tasks/README.md)
+- [Team and Roles](docs/team-and-roles/README.md)
+- [Meeting Notes](docs/overview/meeting-11-march.md)
+- [Competitor Analysis](docs/competitor-analysis-agile-engineering-2/README.md)
+- [Interview Pipeline](docs/product-manager-interview-pipeline/README.md)
+- [Updates Log](updates/README.md)
+
+## Easy Update Workflow
+
+1. Add or update content in `docs/`.
+2. Add a short update note in `updates/daily/` or `updates/weekly/`.
+3. Use one of the templates:
+   - `templates/daily.md`
+   - `templates/meeting-notes.md`
+4. Open a PR with context using `.github/PULL_REQUEST_TEMPLATE.md`.
+
+### Copy/Paste Update Entry
+
+```md
+# Update - YYYY-MM-DD
+
+## What Changed
+- 
+
+## Why
+- 
+
+## Linked Docs
+- 
+```
+
+---
+
 ## What Problem are we trying to solve
 
 - Real user interviews are **slow, expensive, and hard to scale**
@@ -17,20 +55,22 @@
 
 ## Data Sources for Scraping
 
-1. App Stores
+1. **App Stores**
    - AppStore (Apple)
    - PlayStore (Google)
    - ProductHunt
    - G2
    - Captera
-2. Social Media
+2. **Social Media**
    - Reddit
    - Twitter/X
    - Instagram
    - Facebook
    - YouTube
-3. E-commerce
+3. **E-commerce**
    - Amazon, Shopify, AliExpress, Etsy, Ebay
+
+Related:
 
 - [Scraper Tools Overview](docs/overview/scraper-tools-overview.md)
 - [Data Scraping Tools](docs/overview/data-scraping-tools.md)
@@ -55,11 +95,11 @@
 
 ### Functionalities
 
-**Primary Functionalities - MVP:**
+### Primary Functionalities - MVP
 
 - Run ad campaign simulation
 
-**Additional Functionalities:**
+### Additional Functionalities
 
 - Web scraping
 - Pre-product-launch testing
@@ -69,16 +109,18 @@
 
 ### First User Segment
 
-**Company Types:**
+### Company Types
 
 - Small to Medium Enterprises
 - ScaleUps
 - Large Enterprise
 - Agencies and Freelancers
 
-**Company Criteria:**
+### Company Criteria
 
 - Companies that already have a product and customer feedback
+
+Related:
 
 - [GoTFu - Tasks](docs/gotfu-tasks/README.md)
 
@@ -103,6 +145,8 @@
 9. JENTIS
 10. C5i Synthetic Audiences (Microsoft Marketplace)
 11. SyntheticIQ
+
+Related:
 
 - [What competitors offer as data enrichment for synthetic user profiles](docs/overview/what-do-competitors-offer-as-data-enrichment-for-s.md)
 - [Team and Roles](docs/team-and-roles/README.md)
@@ -146,8 +190,10 @@ If you know other tools that are out there, please add them.
 - [Competitor Analysis Agile Engineering](docs/competitor-analysis-agile-engineering-2/README.md)
 - [Product Manager Interview Pipeline](docs/product-manager-interview-pipeline/README.md)
 
-## Repository Navigation
+---
 
-- [Knowledge Base Index](docs/index.md)
-- [Updates Log](updates/README.md)
+## Repository Maintenance
+
 - [Contributing Guide](CONTRIBUTING.md)
+- [Updates Log](updates/README.md)
+- [Knowledge Base Index](docs/index.md)
