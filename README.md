@@ -10,7 +10,7 @@ Click the badge above to view the full Notion workspace.
 
 ## ✍️ Quick Edit
 
-[Open README directly in Obsidian](obsidian://open?vault=Docs&file=README.md)
+[![Open in Obsidian](https://img.shields.io/badge/Open%20README-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](obsidian://open?path=/Users/redbar/Documents/GitHub/Docs/README.md)
 
 Obsidian saves changes automatically while you edit.
 
