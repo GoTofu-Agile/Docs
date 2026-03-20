@@ -10,7 +10,9 @@ Click the badge above to view the full Notion workspace.
 
 ## ✍️ Quick Edit
 
-[Update this page in Obsidian (no terminal commands)](#update-this-readme-in-obsidian)
+[Open README directly in Obsidian](obsidian://open?vault=Docs&file=README.md)
+
+Obsidian saves changes automatically while you edit.
 
 ## Quick Navigation
 
