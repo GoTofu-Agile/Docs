@@ -1,6 +1,6 @@
 # Agile Engineering - Go_TOFU
 
-> Source of truth imported from the main Notion page, adapted for GitHub.
+> Source of truth  imported from the main Notion page, adapted for GitHub.
 
 ## 🚀 Open in Notion
 
