@@ -8,6 +8,10 @@
 
 Click the badge above to view the full Notion workspace.
 
+## ✍️ Quick Edit
+
+[Update this page in Obsidian (no terminal commands)](#update-this-readme-in-obsidian)
+
 ## Quick Navigation
 
 - [Knowledge Base Index](docs/index.md)
@@ -26,6 +30,13 @@ Click the badge above to view the full Notion workspace.
    - `templates/daily.md`
    - `templates/meeting-notes.md`
 4. Open a PR with context using `.github/PULL_REQUEST_TEMPLATE.md`.
+
+## Update this README in Obsidian
+
+1. Open this repository as an Obsidian vault.
+2. Open `README.md`.
+3. Edit the content directly and save.
+4. Commit and open PR using GitHub Desktop or the GitHub web UI when ready.
 
 ## Collaboration Workflow (Obsidian + GitHub)
 
